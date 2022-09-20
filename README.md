@@ -12,7 +12,7 @@ timm 0.3.2
 ### Preparation
 The repo needs the pretrained models and the finetuned ones.\
 To get SimCLRv2 pretrained models, please use this [repo](https://github.com/Separius/SimCLRv2-Pytorch) to convert the tensorflow models provided [here](https://github.com/google-research/simclr) into Pytorch ones. Please download MAE pretrained models from [here](https://github.com/facebookresearch/mae).\
-To get finetuned models and test the adversarial samples, please follow this [repo](finetuning/SimCLR/README.md)
+To get finetuned models and test the adversarial samples, please follow this [repo](finetuning/SimCLR/README.md).\
 Please configure the paths of pre-trained and finetuned models in [tools.py](tools.py).
 
 
